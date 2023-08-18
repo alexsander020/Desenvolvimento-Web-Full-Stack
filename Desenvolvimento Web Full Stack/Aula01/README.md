@@ -106,26 +106,10 @@ npm test
 Coloque código do prompt de comnando se for necessário
 ```
 
-## 🗃 Histórico de lançamentos
 
-* 07/06/2023 Versão 3.2 - tela de game over e win adicionadas.
-* 31/05/2023 Versão 2.9 - versão de apresentação de ideias.
 
-## 📋 Licença/License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-1-MCC1/Projeto1.git">Intimidate Virus </a> <img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.
-## 🎓 Referências
 
-Aqui estão as referências usadas no projeto.
-
-1. <https://github.com/iuricode/readme-template>
-2. <https://brasil.un.org/pt-br/sdgs/3>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. <https://brasil.un.org/pt-br/sdgs/4>
-6. <https://www.crunchyroll.com/series/GR3KVPQER/cells-at-work>
-7. <https://www.youtube.com/watch?v=ifXGvlAn0bY&t=1051s>
-8. <https://www.piskelapp.com/>
 
 
 

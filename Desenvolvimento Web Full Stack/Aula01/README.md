@@ -14,9 +14,9 @@ A harmonia entre HTML, JavaScript e CSS é o alicerce da construção de página
 
 🎯 O que Você Vai Aprender?
 
-HTML: Vamos aprender como estruturar o conteúdo de uma página utilizando os elementos do HTML. Você entenderá como criar títulos, parágrafos e botões, dando os primeiros passos na construção de um layout.
+HTML: Vamos aprender como estruturar o conteúdo de uma página utilizando os elementos do HTML. Você entenderá como criar títulos, parágrafos e botões, dando os primeiros passos na construção de um layout.<br><br>
 
-CSS: Vamos mergulhar na estilização visual com o CSS. Você vai dominar a arte de personalizar cores, fontes e layouts para criar uma experiência visualmente agradável e coesa.
+CSS: Vamos mergulhar na estilização visual com o CSS. Você vai dominar a arte de personalizar cores, fontes e layouts para criar uma experiência visualmente agradável e coesa.<br><br>
 
 JavaScript: Entraremos no mundo da programação com JavaScript. Você vai descobrir como tornar sua página interativa, respondendo a ações do usuário, como cliques de botões, e alterando elementos em tempo real.
 💡 Próximos Passos: Mãos à Obra!

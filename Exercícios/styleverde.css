@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth; 
+}
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2d794d;
+    background-image: linear-gradient(43deg, #2d794d 0%, #02f34e 46%, #70f2ff 100%);
+    color: #000000;
+    padding: 20px;
+}
+ .container{
+    background-color: #A3939D;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0%;
+ }
+ 
+ nav{
+    margin: 20px;
+ }
+ nav a, a{
+    margin: 15px;
+    text-decoration: none;
+    color: #000000;
+ }
+ nav a:hover{
+    text-decoration: underline;
+ }
+ .image-text-wrapper{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+ }
+ .image-text-wrapper img{
+    width: 30%; 
+ }
+ .text-content{
+    flex: 1;
+ }
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #000000;
+ }
+ caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ thead{
+    background-color: #080808;
+    color: #fff;
+ }
+ th,td{
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+ }
+ tbody tr:nth-child(even){
+    background-color: green;
+ }
+ tbody tr:hover{
+    background-color: red;
+ }
+ footer{
+    margin-top: 20px;
+ }
+ .social-link{
+    margin: 10px;
+    margin-bottom: 30px;
+ }
+ .social-link a{
+    margin-right: 10px;
+    color: #000000;
+ }
+ .social-link i{
+    font: 24px;
+    color: #000000;
+ }
+ .social-link a:hover{
+    color: #EB1035;
+ }
+ 

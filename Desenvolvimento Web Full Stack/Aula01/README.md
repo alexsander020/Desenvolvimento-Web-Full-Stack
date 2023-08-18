@@ -4,12 +4,8 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto: INTIMIDATE VIRUS
+# Nome do Projeto: Primeiro Passo com HTML, JavaScript e CSS
 
-## Nome do Grupo: INIMIGOS DA COMPUTAÇÃO
-
-## Integrantes: <a href="https://www.linkedin.com/in/victor-domingues-52b566161/">Victor Lopes Domingues</a>,  <a href="https://www.linkedin.com/in/alexsander-sudario-0a793524a/">Alexsander Sudario</a>,
-## Professores Orientadores: <a>Eduardo Savino, Renata Muniz Do Nascimento, Victor Bruno Alexander Rosetti de Quiroz, Fabiano Alves Onça, Jefferson de Oliveira Silva</a>
 
 ## Descrição
 
@@ -17,7 +13,6 @@
 <img src="https://user-images.githubusercontent.com/46869529/245512441-b1aa8b0b-99a5-406f-ade3-6a306dbf8c24.png" alt="INTIMIDATE VIRUS" border="0">
   Intimidate Virus <a></a>
 </p>
-
 
 
 <br><br>

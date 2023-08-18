@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Ima/dia.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+body.night-theme{
+    background-image: url("Ima/noite.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+header, main, footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}

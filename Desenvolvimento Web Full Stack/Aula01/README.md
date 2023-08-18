@@ -15,7 +15,7 @@
 <br><br>
 O jogo Intimidate Virus é um projeto interdisciplinar do curso de Ciência da Computação utilizado o GODOT Engine 4
 <br><br>
-# Intimidate Virus
+#  Primeiro Passo com HTML, JavaScript e CSS
 
 🌐 O que Esperar?
 Nesse exercício, vamos caminhar lado a lado enquanto você explora um exemplo prático e empolgante que combina HTML, JavaScript e CSS. Juntos, vamos construir um projeto simples que ilustra a interconexão dessas tecnologias, e você verá como elas se complementam para criar interações envolventes na web. Não importa se você nunca programou antes - este é o ponto de partida perfeito para adentrar o universo do desenvolvimento web.

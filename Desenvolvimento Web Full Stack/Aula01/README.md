@@ -9,10 +9,7 @@
 
 ## Descrição
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/46869529/245512441-b1aa8b0b-99a5-406f-ade3-6a306dbf8c24.png" alt="INTIMIDATE VIRUS" border="0">
-  Intimidate Virus <a></a>
-</p>
+
 
 
 <br><br>
@@ -20,15 +17,19 @@ O jogo Intimidate Virus é um projeto interdisciplinar do curso de Ciência da C
 <br><br>
 # Intimidate Virus
 
-Intimidate Virus é um projeto que visa incentivar o estudo e o conhecimento sobre os diferentes tipos de vírus e bactérias presentes em nosso organismo, que podem nos trazer benefícios ou malefícios. O jogo foi desenvolvido utilizando o estilo de gameplay Top-Down, onde os confrontos ocorrem com base em um sistema de turno.
+🌐 O que Esperar?
+Nesse exercício, vamos caminhar lado a lado enquanto você explora um exemplo prático e empolgante que combina HTML, JavaScript e CSS. Juntos, vamos construir um projeto simples que ilustra a interconexão dessas tecnologias, e você verá como elas se complementam para criar interações envolventes na web. Não importa se você nunca programou antes - este é o ponto de partida perfeito para adentrar o universo do desenvolvimento web.
 
-A mecânica do jogo envolve enfrentar diversos tipos de vírus e bactérias em batalhas estratégicas. Cada encontro é baseado em turnos, onde o jogador e os inimigos têm a oportunidade de realizar ações para causar dano, se defender ou utilizar itens especiais. A estratégia é fundamental para vencer os combates, considerando os pontos fortes e fracos de cada tipo de vírus e bactéria.
+🚀 A Importância Desse Primeiro Passo
+A harmonia entre HTML, JavaScript e CSS é o alicerce da construção de páginas modernas na internet. Compreender como essas peças se encaixam é a chave para criar sites atraentes e funcionais. Você estará mais próximo de construir sua presença online única, seja para compartilhar sua paixão, apresentar seu trabalho ou trazer suas ideias para a vida digital.
 
-Além das batalhas, o jogo também apresenta um sistema de eventos aleatórios. Esses eventos podem modificar o estado dos jogadores durante a gameplay, como causar uma redução temporária de atributos ou conceder bônus especiais. Esses eventos adicionam um elemento de desafio e recompensa ao jogo, tornando cada partida única e imprevisível.
+🎯 O que Você Vai Aprender?
 
-Os eventos do jogo também têm uma proposta crítica e de conscientização. Eles destacam a falta de recursos em determinadas regiões do mundo e demonstram que certos continentes possuem melhores resultados, qualidade e rapidez no combate a vírus e bactérias em comparação com outros. Essa abordagem busca chamar a atenção para as desigualdades na saúde global e incentivar a busca por soluções mais equitativas.
-
-No Intimidate Virus, os jogadores têm a oportunidade de aprender sobre diferentes vírus e bactérias, entender suas características e modos de combate. O jogo busca ser uma ferramenta educativa e divertida para promover o interesse pela microbiologia e aumentar a conscientização sobre a importância do estudo e prevenção de doenças..
+HTML: Vamos aprender como estruturar o conteúdo de uma página utilizando os elementos do HTML. Você entenderá como criar títulos, parágrafos e botões, dando os primeiros passos na construção de um layout.
+CSS: Vamos mergulhar na estilização visual com o CSS. Você vai dominar a arte de personalizar cores, fontes e layouts para criar uma experiência visualmente agradável e coesa.
+JavaScript: Entraremos no mundo da programação com JavaScript. Você vai descobrir como tornar sua página interativa, respondendo a ações do usuário, como cliques de botões, e alterando elementos em tempo real.
+💡 Próximos Passos: Mãos à Obra!
+Agora é a sua vez de experimentar. Siga as instruções do nosso exemplo e veja como pequenos trechos de código podem fazer uma grande diferença na experiência do usuário. Estamos animados para embarcar nessa jornada com você e estamos ansiosos para ver as incríveis criações que você construirá. Vamos começar essa emocionante aventura de introdução ao HTML, JavaScript e CSS e desvendar os mistérios do mundo digital juntos! 🌐🚀💻
 <br><br>
 
 ## 🛠 Estrutura de pastas

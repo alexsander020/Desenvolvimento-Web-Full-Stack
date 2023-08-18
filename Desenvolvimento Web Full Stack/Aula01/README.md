@@ -9,12 +9,6 @@
 
 ## Descrição
 
-
-
-
-<br><br>
-O jogo Intimidate Virus é um projeto interdisciplinar do curso de Ciência da Computação utilizado o GODOT Engine 4
-<br><br>
 #  Primeiro Passo com HTML, JavaScript e CSS
 
 🌐 O que Esperar?

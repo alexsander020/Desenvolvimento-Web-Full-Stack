@@ -1,0 +1,17 @@
+*{font-family: 'Montserrat', sans-serif;}
+body{
+    background-image: url('img/triangles_pattern.webp');
+    background-color: black;
+}
+.col-md-6{
+    text-align:justify ;
+}
+.breadcrumb{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.tamanho{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0% auto;
+}

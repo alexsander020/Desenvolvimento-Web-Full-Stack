@@ -1,0 +1,656 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+
+<html lang="en"> <!-- Abertura da tag HTML com o atributo de idioma definido como 'en' (inglês) -->
+
+<head> <!-- Início da seção do cabeçalho -->
+
+    <!-- Definição do conjunto de caracteres e configuração da viewport para dispositivos móveis -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclusão da folha de estilo Bootstrap a partir de um CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Inclusão do arquivo de estilo local "style.css" -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Inclusão do arquivo de estilo local "cratas.css" -->
+    <link rel="stylesheet" href="cratas.css">
+
+    <!-- Inclusão do script Bootstrap a partir de um CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Inclusão do título da página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+
+</head> <!-- Fim da seção do cabeçalho -->
+
+<body> <!-- Conteúdo da página vai aqui -->
+    <!-- Início da barra de navegação (navbar) -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- Início do contêiner fluido que abriga todo o conteúdo da barra de navegação -->
+
+            <a class="navbar-brand" href="#">Tatakai</a>
+            <!-- Marca (logotipo) da barra de navegação que leva à página inicial -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- Botão de alternância para dispositivos móveis -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Div que envolve o conteúdo da barra de navegação (itens do menu) -->
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Lista não ordenada que contém os itens do menu de navegação -->
+
+                    <li class="nav-item">
+                        <!-- Item de menu -->
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <!-- Link "Home" dentro do item de menu -->
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- Item de menu -->
+                        <a class="nav-link" href="#Cartas">Cartas</a>
+                        <!-- Link "Link" dentro do item de menu -->
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- Item de menu -->
+                        <a class="nav-link" href="#SaibaMais">Enredo</a>
+                        <!-- Link "Saiba Mais" dentro do item de menu -->
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <!-- Formulário de pesquisa na barra de navegação -->
+
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- Campo de entrada de texto para pesquisa -->
+
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <!-- Botão de pesquisa -->
+                </form>
+            </div>
+        </div>
+        <!-- Fim do contêiner fluido -->
+
+    </nav>
+    <!-- Carousel -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <!-- Início do elemento do carrossel (carousel) com ID "carouselExampleRide" e habilitação de automação (data-bs-ride="true") -->
+
+        <div class="carousel-inner">
+            <!-- Contêiner para os slides do carrossel -->
+
+            <div class="carousel-item active">
+                <!-- Primeiro slide (ativo) -->
+                <img src="Img/Attack-on-Titan-2.webp" class="d-block w-100" alt="img03_resized">
+                <!-- Imagem do primeiro slide -->
+            </div>
+
+            <div class="carousel-item">
+                <!-- Segundo slide -->
+                <img src="Img/img03_resized.jfif" class="d-block w-100" alt="img04_resized">
+                <!-- Imagem do segundo slide -->
+            </div>
+
+            <div class="carousel-item">
+                <!-- Terceiro slide -->
+                <img src="Img/img04_resized.jfif" class="d-block w-100" alt="Img/Attack-on-Titan-2.webp">
+                <!-- Imagem do terceiro slide -->
+            </div>
+        </div>
+
+        <!-- Botão de controle para o slide anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <!-- Botão de controle para o próximo slide -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Fim do elemento do carrossel -->
+
+    <!-- Secão Carousel -->
+    <main>
+        <section>
+            <!-- Início de uma seção -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+                <div class="image-text-wrapper">
+                    <!-- Container que envolve uma imagem e texto -->
+                    <img src="Img/Attack_on_Titan_Season_1.webp" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+
+                    <div class="text-content">
+                        <!-- Conteúdo de texto -->
+                        <h2 id="SaibaMais">O Enredo</h2>
+                        <!-- Título do texto -->
+                        <p>Shingeki conta a história de uma nação que vive presa devido à existência de estranhos
+                            titãs que se alimentam de pessoas. Por isso, para evitar que a humanidade acabe, e com
+                            o intuito de proteção, foram criadas três muralhas: <b>Maria, Rose e Sina.</b>
+                        </p>
+                        <!-- Parágrafo explicando o enredo -->
+
+                        <div>
+                            <!-- Início de um contêiner aninhado -->
+                            <img src="Img/7df639669062c82d6aa657b1ccbc5a3c1d6b6ffc_hq.jpg" alt="Descrição"
+                                class="img-fluid">
+                            <!-- Imagem com uma descrição alternativa -->
+                        </div>
+
+                        <p>Até que um ataque inesperado muda a vida dos moradores da muralha Maria, a mais externa. Um
+                            Titã maior que as paredes de 50 metros aparece, e outro vestido com uma armadura também
+                            entra no espaço, fazendo com que houvesse uma invasão de titãs menores e um verdadeiro
+                            massacre com poucos sobreviventes.
+                        </p>
+                        <!-- Mais informações sobre o enredo -->
+
+                        <p>Entre eles está o protagonista <b>Eren Yeager</b>, sua irmã adotiva, <b>Mikasa Ackerman</b>,
+                            e o melhor amigo deles, <b>Armin Alert</b>. Decididos a se vingarem da destruição de sua
+                            infância, eles juram entrar na Divisão de Reconhecimento, divisão militar que busca
+                            explorar melhorias para a humanidade e principalmente, matar titãs.
+                        </p>
+                        <!-- Continuação da história -->
+
+                        <div class="image-text-wrapper">
+                            <!-- Novo contêiner de imagem e texto -->
+                            <img src="Img/Shingeki-no-Kyojin-temporada-2-poster_resized_resized_resized.webp" alt="">
+                            <!-- Imagem sem descrição alternativa -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim do container principal -->
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção -->
+    </main>
+    <br>
+    <main>
+        <!-- Elemento principal do conteúdo da página -->
+
+        <section>
+            <!-- Início de uma seção de conteúdo -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+
+                <div class="image-text-wrapper">
+                    <!-- Container que envolve uma imagem e texto -->
+                    <img src="Img/Titã Bestial.jpg" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+
+                    <div class="text-content">
+                        <!-- Conteúdo de texto -->
+                        <h2>Titã Bestial</h2>
+                        <!-- Título do texto -->
+
+                        <p>O Titã Bestial (獣の巨人 Kemono no Kyojin?) pode assumir a aparência de um animal
+                            diferente, dependendo de seus herdeiros, e tem a capacidade de arremessar coisas
+                            com uma força devastadora, juntamente com a capacidade de endurecer sua carne.
+                        </p>
+                        <!-- Parágrafo explicando sobre o Titã Bestial -->
+
+                        <h3>História</h3>
+                        <!-- Título de subseção -->
+
+                        <p>O Titã Bestial, como todos os Nove Titãs, foi trazido ao mundo depois da morte de
+                            Ymir Fritz. Nos 1.700 anos seguintes à sua morte, o Titã Bestial ficou sob a posse
+                            de um ou vários dos beligerantes Eldianos subservientes ao Titã Primordial.
+                            Depois destes séculos de séculos, quando o 145º Rei da família Fritz abandonou os
+                            conflitos de Eldia e mudou-se para Paradis, o Titã Besta foi tomado pela nação de
+                            Marley durante a Guerra dos Grandes Titã.
+                        </p>
+                        <!-- Parágrafo explicando a história do Titã Bestial -->
+
+                        <p>Em algum ponto antes do ano 845, Zeke Yeager foi escolhido para herdar o poder do
+                            Titã Bestial. Adicionalmente, foi concedido o título de mestre da guerra sobre
+                            todos os guerreiros de Marley.
+                        </p>
+                        <!-- Parágrafo explicando sobre Zeke Yeager -->
+
+                        <div class="image-text-wrapper">
+                            <!-- Novo container de imagem e texto -->
+                            <img src="Img/Zeke_time_skip_appearance-1.png" alt="Descrição" class="img-fluid">
+                            <!-- Imagem com uma descrição alternativa -->
+                        </div>
+                    </div>
+                    <!-- Fim do conteúdo de texto -->
+                </div>
+                <!-- Fim do container principal -->
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção de conteúdo -->
+    </main>
+    <!-- Fim do elemento principal -->
+    <br>
+
+    <main>
+        <!-- Elemento principal do conteúdo da página -->
+
+        <section>
+            <!-- Início de uma seção de conteúdo -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+
+                <div class="text-content">
+                    <!-- Container que envolve o conteúdo de texto -->
+                    <h2>Titã Blindado</h2>
+                    <!-- Título do texto -->
+
+                    <p>O Titã Blindado (鎧の巨人 Yoroi no Kyojin?) é coberto por uma pele endurecida semelhante
+                        a uma armadura, exceto em áreas essenciais necessárias para o movimento. Ele também
+                        possui a capacidade de endurecer seus braços e pés em garras mais afiadas que podem
+                        ser usadas para escalar estruturas, como as Muralhas.
+                    </p>
+                    <!-- Parágrafo explicando sobre o Titã Blindado -->
+
+                    <h3>História</h3>
+                    <!-- Título de subseção -->
+
+                    <p>O Titã Blindado, como todos os Nove Titãs, foi trazido ao mundo após a morte de Ymir
+                        Fritz. Nos 1.700 anos após sua morte, o Titã Blindado foi mantido em posse de uma ou
+                        várias das casas guerreiras Eldianas, subservientes ao Titã Fundador. Após esses
+                        dezessete séculos, quando Karl Fritz, o 145º rei da família Fritz, abandonou os
+                        conflitos de Eldia e se mudou para a Ilha Paradis, o Titã Blindado foi tomado pela
+                        nação de Marley durante a Grande Guerra dos Titãs.
+                    </p>
+                    <!-- Parágrafo explicando a história do Titã Blindado -->
+
+                    <p>No ano de 843, Reiner Braun foi escolhido para herdar o poder do Titã Blindado. Ele
+                        mais tarde faria uso de sua forma de Titã em uma guerra entre Marley e uma nação
+                        inimiga, usando seu Titã Blindado para receber o peso do fogo de artilharia inimiga.
+                    </p>
+                    <!-- Continuação da história -->
+
+                    <p>No ano de 845, a nação de Marley enviou Reiner, Bertholdt Hoover, Annie Leonhart e
+                        Marcel Galliard através do mar para a Ilha Paradis como o início da Operação Ilha
+                        Paradis.
+                    </p>
+                    <!-- Mais informações sobre a história do Titã Blindado -->
+
+                    <div class="image-text-wrapper">
+                        <!-- Novo container de imagem e texto -->
+                        <img src="Img/Reiner-Braun-1_resized.jpg" alt="">
+                        <!-- Imagem sem descrição alternativa -->
+                    </div>
+                </div>
+                <!-- Fim do conteúdo de texto -->
+
+                <div class="image-text-wrapper-direita-Blindado">
+                    <!-- Container para a imagem à direita do texto -->
+                    <img src="Img/Titã Blindado.webp" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+                </div>
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção de conteúdo -->
+    </main>
+    <!-- Fim do elemento principal -->
+    <br>
+
+    <main>
+        <!-- Elemento principal do conteúdo da página -->
+
+        <section>
+            <!-- Início de uma seção de conteúdo -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+
+                <div class="image-text-wrapper">
+                    <!-- Container que envolve uma imagem e texto -->
+                    <img src="Img/Titã Colossal.jpg" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+
+                    <div class="text-content">
+                        <!-- Conteúdo de texto -->
+                        <h2>Titã Colossal</h2>
+                        <!-- Título do texto -->
+
+                        <p>O Titã Colossal (超大型巨人 Chō ōgata Kyojin?) é enorme e pode evaporar seu corpo para
+                            liberar imensas quantidades de vapor, junto com o usuário sendo capaz de controlar o
+                            poder de transformação podendo criar uma grande explosão.
+                        </p>
+                        <!-- Parágrafo explicando sobre o Titã Colossal -->
+
+                        <h3>História</h3>
+                        <!-- Título de subseção -->
+
+                        <p>O Titã Colossal, como todos os Nove Titãs, foi trazido ao mundo após a morte de Ymir
+                            Fritz. Nos 1.700 anos após sua morte, o Titã Colossal foi mantido em posse de uma ou
+                            várias das casas Eldianas em guerra subservientes ao Titã Fundador. Após esses
+                            dezessete séculos, quando Karl Fritz, o 145º Rei da família Fritz, abandonou os
+                            conflitos de Eldia e se mudou para a Ilha Paradis, o Titã Colossal foi tomado pela
+                            nação de Marley durante a Grande Guerra dos Titãs.
+                        </p>
+                        <!-- Parágrafo explicando a história do Titã Colossal -->
+
+                        <p>Por volta do ano 843, Bertolt Hoover foi escolhido para herdar o poder do Titã Colossal.
+                            Ele mais tarde faria uso de sua forma de Titã em uma guerra entre Marley e uma nação
+                            inimiga, usando seu Titã Colossal para destruir uma cidade contendo tropas inimigas
+                            em um ataque furtivo após o Titã da Carroça colocá-lo em posição.
+                        </p>
+                        <!-- Continuação da história -->
+
+                        <p>No ano de 845, a nação de Marley enviou Bertolt, Reiner Braun, Annie Leonhart e Marcel
+                            Galliard através do oceano para a Ilha Paradis como o início da Operação Ilha Paradis.
+                        </p>
+                        <!-- Mais informações sobre a história do Titã Colossal -->
+
+                        <h4>Habilidades</h4>
+                        <!-- Título para as habilidades -->
+
+                        <h6>Transformação explosiva</h6>
+                        <!-- Subtítulo para a habilidade -->
+
+                        <div class="image-text-wrapper">
+                            <!-- Novo container de imagem e texto -->
+                            <img src="Img/Bertolt_explodes_resized.webp" alt="Descrição" class="img-fluid">
+                            <!-- Imagem sem descrição alternativa -->
+                            <img src="Img/Attack-on-Titan-Armin-Arlert-3_resized.png" alt="Descrição" class="img-fluid">
+                            <!-- Imagem sem descrição alternativa -->
+                        </div>
+                    </div>
+                    <!-- Fim do conteúdo de texto -->
+                </div>
+                <!-- Fim do container principal -->
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção de conteúdo -->
+    </main>
+    <!-- Fim do elemento principal -->
+    <br>
+
+    <main>
+        <!-- Elemento principal do conteúdo da página -->
+        <section>
+            <!-- Início de uma seção de conteúdo -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+                <div class="text-content">
+                    <!-- Container que envolve o conteúdo de texto -->
+                    <h2>Titã Mandíbula</h2>
+                    <!-- Título do texto -->
+                    <p>O Titã Mandíbula (顎の巨人 Agito no Kyojin?) é o mais rápido dos Nove Titãs, tem dentes
+                        afiados e endurecidos e garras capazes de quebrar quase tudo.
+                    </p>
+                    <!-- Parágrafo explicando sobre o Titã Mandíbula -->
+                    <h3>História</h3>
+                    <!-- Título de subseção -->
+                    <p>Durante a invasão da Muralha Maria no ano 850, Ymir está entre os recrutas da Divisão de
+                        Reconhecimento quando são encurralados por Titãs no Castelo Utgard. Sem esperança de
+                        escapar, Ymir opta por fazer uso de sua forma de Titã para confrontar os outros Titãs.
+                        Transformando-se diante dos olhos de seus amigos, ela luta contra os Titãs na base do
+                        castelo enquanto os outros tentam compreender a revelação de seus poderes. Reiner e
+                        Bertolt reconhecem seu Titã como aquele que comeu seu companheiro cinco anos atrás, e
+                        determinaram que eles deveriam capturá-la junto com Eren quando chegar a hora.
+                        Quando Ymir começa a lutar, Christa oferece seu encorajamento. O Titã Mandíbula de
+                        Ymir sobe ao castelo e salva os outros do colapso. Quando a poeira baixa, o cansado Titã
+                        de Ymir é incapaz de continuar lutando contra os Titãs, mas sua vida é salva pela chegada
+                        dos soldados do Reconhecimento do ataque ao Distrito de Stohess. Ela é extraída com
+                        segurança de seu Titã, e Christa revela seu verdadeiro nome como Historia Reiss.
+                    </p>
+                    <!-- Parágrafo explicando a história do Titã Mandíbula -->
+                    <div class="image-text-wrapper">
+                        <!-- Novo container de imagem e texto -->
+                        <img src="Img/Marcel_Galliard_29_character_image_resized.webp" alt="Descrição"
+                            class="img-fluid">
+                        <!-- Imagem sem descrição alternativa -->
+                    </div>
+                </div>
+                <div class="image-text-wrapper-direitaMandíbula">
+                    <!-- Container para a imagem à direita do texto -->
+                    <img src="Img/Titã Mandíbula.webp" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+                </div>
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção de conteúdo -->
+    </main>
+    <!-- Fim do elemento principal -->
+    <br>
+
+    <main>
+        <!-- Elemento principal do conteúdo da página -->
+        <section>
+            <!-- Início de uma seção de conteúdo -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+
+                <div class="image-text-wrapper">
+                    <!-- Container que envolve uma imagem e texto -->
+                    <img src="Img/Pieck-Finger-Attack-on-Titan-02.jpg_resized.webp" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+
+                    <div class="text-content">
+                        <!-- Conteúdo de texto -->
+                        <h3>Titã Quadrúpede </h3>
+                        <!-- Título do texto -->
+
+                        <p>O Titã Quadrúpede (車 力 の 巨人 Shariki no Kyojin?) é quadrúpede e tem grande resistência
+                            que o permite permanecer transformado por longos períodos de tempo.
+                            Sua velocidade rivaliza com a do Titã Mandíbula.
+                        </p>
+                        <!-- Parágrafo explicando sobre o Titã Quadrúpede -->
+
+                        <h3>História</h3>
+                        <!-- Título de subseção -->
+
+                        <p>O Titã Quadrúpede, como todos os Nove Titãs, foi trazido ao mundo após a morte de Ymir
+                            Fritz. Nos 1.700 anos após sua morte, o Titã Quadrúpede foi mantido em posse de uma ou
+                            várias das casas Eldianas em guerra, subservientes ao Titã Fundador. Após esses
+                            dezessete séculos, quando Karl Fritz, o 145º Rei da família Fritz, abandonou os
+                            conflitos de Eldia e se mudou para a Ilha Paradis, o Titã Quadrúpede foi tomado pela
+                            nação de Marley durante a Grande Guerra dos Titãs.
+                        </p>
+                        <!-- Parágrafo explicando a história do Titã Quadrúpede -->
+
+                        <p>Por volta do ano 843, Pieck foi escolhida para herdar o poder do Titã Quadrúpede. Ela
+                            mais tarde faria uso de sua forma de Titã durante uma guerra entre Marley e uma nação
+                            inimiga, usando seu Titã Quadrúpede para deixar Bertolt Hoover em um local para
+                            transformação.
+                        </p>
+                        <!-- Continuação da história -->
+
+                        <p>Quando chegou a hora da Operação Ilha Paradis, o Titã Quadrúpede de Pieck foi escolhido
+                            para ficar em Marley como dissuasão contra as forças inimigas.
+                        </p>
+                        <!-- Mais informações sobre a história do Titã Quadrúpede -->
+
+                        <div class="image-text-wrapper">
+                            <!-- Novo container de imagem e texto -->
+                            <img src="Img/tita-quadrupede-Attack-on-titan-03-1280x720.jpg.webp" alt="Descrição"
+                                class="img-fluid">
+                            <!-- Imagem sem descrição alternativa -->
+                        </div>
+                    </div>
+                    <!-- Fim do conteúdo de texto -->
+                </div>
+                <!-- Fim do container principal -->
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção de conteúdo -->
+    </main>
+    <!-- Fim do elemento principal -->
+    <br>
+
+    <main>
+        <!-- Elemento principal do conteúdo da página -->
+
+        <section>
+            <!-- Início de uma seção de conteúdo -->
+            <div class="row">
+                <!-- Início de uma linha (row) -->
+
+                <div class="text-content">
+                    <!-- Container que envolve o conteúdo de texto -->
+                    <h3>Titã Fêmea</h3>
+                    <!-- Título do texto -->
+
+                    <p>A Titã Fêmea (女型の巨人 Megata no Kyojin?) pode herdar habilidades muito mais facilmente do
+                        que qualquer um dos outros Titãs.
+                    </p>
+                    <!-- Parágrafo explicando sobre o Titã Fêmea -->
+
+                    <h4>História</h4>
+                    <!-- Título de subseção -->
+
+                    <p>A Titã Fêmea, como todos os Nove Titãs, foi trazida ao mundo após a morte de Ymir Fritz.
+                        Nos 1.700 anos após sua morte, a Titã Fêmea foi mantida na posse de uma ou várias das
+                        casas guerreiras Eldianas, subservientes ao Titã Fundador. Após esses dezessete séculos,
+                        quando Karl Fritz, o 145º rei da família Fritz, abandonou os conflitos de Eldia e se mudou
+                        para a Ilha Paradis, a Titã Fêmea foi tomada pela nação de Marley durante a Grande Guerra
+                        dos Titãs.
+                    </p>
+                    <!-- Parágrafo explicando a história da Titã Fêmea -->
+
+                    <p>Por volta do ano 843, Annie Leonhart foi escolhida para herdar o poder da Titã Fêmea. Mais
+                        tarde, ela faria uso de seu Titã Fêmea em uma guerra entre Marley e uma nação inimiga.
+                    </p>
+                    <!-- Continuação da história -->
+
+                    <p>No ano de 845, a nação de Marley enviou Annie, Reiner Braun, Bertholdt Hoover e Marcel
+                        Galliard através do mar para a Ilha Paradis como o início da Operação da Ilha Paradis. Sua
+                        Titã Fêmea foi responsável pela grande quantidade de Titãs que invadiram a Muralha Maria
+                        durante sua queda.
+                    </p>
+                    <!-- Mais informações sobre a história da Titã Fêmea -->
+
+                    <div class="image-text-wrapper">
+                        <!-- Novo container de imagem e texto -->
+                        <img src="Img/artworks-aRgwOnPhzwhcGyZM-DCuPSQ-t500x500_resized.jpg" alt="Descrição"
+                            class="img-fluid">
+                        <!-- Imagem sem descrição alternativa -->
+                    </div>
+                </div>
+                <!-- Fim do conteúdo de texto -->
+
+                <div class="image-text-wrapper-direita">
+                    <!-- Container para a imagem à direita do texto -->
+                    <img src="Img/Titã Fêmea.jpg" alt="Descrição" class="img-fluid">
+                    <!-- Imagem com uma descrição alternativa -->
+                </div>
+            </div>
+            <!-- Fim da linha -->
+        </section>
+        <!-- Fim da seção de conteúdo -->
+    </main>
+    <!-- Fim do elemento principal -->
+    <br>
+
+    <footer class="cratas" id="Cartas">
+        <!-- Início do rodapé com a classe "cratas" -->
+
+        <div class="footer-container">
+            <!-- Container que envolve os cartões -->
+
+            <!-- Cartão 1 -->
+            <div class="card">
+                <!-- Imagem do Titã Fundador -->
+                <img src="Img/Titã Fundador.jpg" class="imgcarta" alt="">
+
+                <!-- Informações sobre o Titã Fundador -->
+                <div class="intro">
+                    <h1>Titã Fundador</h1>
+                    <p>O Titã Fundador(始祖の巨人 Shiso no Kyojin?), ao gritar, pode transformar Súditos de Ymir em Titãs,
+                        controlar as mentes dos Titãs, e alterar as memórias e corpos de Súditos de Ymir, mas somente se
+                        o herdeiro tiver sangue real ou estiver em contato com um Titã de sangue real. Ele está
+                        conectado a todos os Súditos de Ymir e Titãs por meio dos caminhos.</p>
+                </div>
+            </div>
+
+            <!-- Cartão 2 -->
+            <div class="card">
+                <!-- Imagem do Titã de Ataque -->
+                <img src="Img/Attack-on-Titan.webp" class="imgcarta" alt="">
+
+                <!-- Informações sobre o Titã de Ataque -->
+                <div class="intro">
+                    <h1>Titã de Ataque</h1>
+                    <p>O Titã de Ataque (進撃の巨人 Shingeki no Kyojin?) pode receber memórias de herdeiros passados e
+                        futuros do Titã. Guiado por essas memórias, ele sempre segue em frente, lutando pela liberdade.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cartão 3 -->
+            <div class="card">
+                <!-- Imagem do Titã Martelo de Guerra -->
+                <img src="Img/Titã Martelo de Guerra.webp" class="imgcarta" alt="">
+
+                <!-- Informações sobre o Titã Martelo de Guerra -->
+                <div class="intro">
+                    <h1>Titã Martelo de Guerra</h1>
+                    <p>O Titã Martelo de Guerra (戦槌の巨人 Sentsui no Kyojin?) pode endurecer sua carne em várias armas e
+                        estruturas. Ele também pode ser controlado de longe através de um cabo de carne de Titã enquanto
+                        o usuário permanece escondido dentro de um invólucro de cristal endurecido.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fim do rodapé -->
+
+    <footer>
+        <!-- Elemento de rodapé da página -->
+    
+        <div id="footer-container">
+            <!-- Container do rodapé -->
+            <div id="footer-container">
+                <!-- Início de um segundo container (observe que ambos têm o mesmo ID, o que é inválido) -->
+    
+                <h1>Frase Capitão Levi</h1>
+                <!-- Título do rodapé -->
+    
+                <p>
+                    Frases de Levi Ackerman - Não importa que tipo de sabedoria dite a opção que você escolher,
+                    ninguém será capaz de dizer se é certa ou errada até que você chegue a algum resultado.
+                </p>
+                <!-- Parágrafo com uma frase -->
+    
+                <ul class="footer-list">
+                    <!-- Lista não ordenada (ul) com a classe "footer-list" -->
+    
+                    <li>
+                        <!-- Primeiro item da lista -->
+                        <iframe src="https://www.youtube.com/embed/WupFkJYXQ-8" frameborder="0"></iframe>
+                        <!-- Inclusão de um vídeo do YouTube usando um iframe -->
+                    </li>
+    
+                    <li>
+                        <!-- Segundo item da lista -->
+                        <iframe src="https://www.youtube.com/embed/ew2aHL7L-90" frameborder="0"></iframe>
+                        <!-- Inclusão de outro vídeo do YouTube usando um iframe -->
+                    </li>
+                </ul>
+            </div>
+            <!-- Fim do segundo container -->
+        </div>
+        <!-- Fim do container principal do rodapé -->
+    </footer>
+    
+    <!-- Fim do elemento de rodapé -->    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

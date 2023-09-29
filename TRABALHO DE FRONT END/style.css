@@ -1,0 +1,135 @@
+/* Define a fonte 'Montserrat' como fonte padrão para todos os elementos */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Define o estilo do corpo da página */
+body {
+    background-image: url(Img/9c4db4e41f42c0ad5b7f41a0b326114f.png);
+    background-size: contain;
+    background-position: top;
+}
+
+/* Define o alinhamento justificado para elementos com a classe .col-md-6 */
+.col-md-6 {
+    text-align: justify;
+}
+
+/* Define o espaçamento para elementos com a classe .breadcrumb */
+.breadcrumb {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+/* Define o tamanho máximo, largura total e centraliza elementos com a classe .tamanho */
+.tamanho {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0% auto;
+}
+
+/* Define a cor do texto para os cabeçalhos h3, h2, h4 e h6 como branco */
+h3, h2, h4, h6 {
+    color: white;
+}
+
+/* Define a cor do texto para parágrafos como azure (um tom de azul claro) */
+p {
+    color: azure;
+}
+
+/* Define o layout flexível para elementos com a classe .image-text-wrapper */
+.image-text-wrapper {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+/* Define a largura das imagens dentro de .image-text-wrapper como 30% */
+.image-text-wrapper img {
+    width: 30%;
+}
+
+/* Faz com que o elemento com a classe .text-content ocupe todo o espaço disponível */
+.text-content {
+    flex: 1;
+}
+
+/* Define uma largura fixa e exibição inline-block para elementos com a classe .image-text-wrapper-direita */
+.image-text-wrapper-direitaMandíbula{
+    width: 450px;
+    display: inline-block;
+}
+
+/* Definindo estilos para elementos com a classe .image-text-wrapper-direita-Blindado */
+.image-text-wrapper-direita-Blindado {
+    /* Define a largura dos elementos para 450 pixels */
+    width: 450px;
+
+    /* Define a exibição dos elementos como inline-block */
+    display: inline-block;
+}
+
+
+/* Definindo estilos para elementos com a classe .image-text-wrapper-direita */
+
+.image-text-wrapper-direita {
+    /* Define a largura dos elementos para 400 pixels */
+    width: 400px;
+
+    /* Define a exibição dos elementos como inline-block */
+    display: inline-block;
+}
+
+
+/* Definindo estilos para elementos com a classe .container-a */
+.container-a {
+    display: inline-block;
+}
+
+/* Definindo variáveis de cores personalizadas usando :root */
+:root {
+    --color-netral-0: #0e0c0c;
+    --color-netral-10: #171717;
+    --color-netral-30: #a8a29e;
+    --color-netral-40: #f5f5f5;
+}
+
+/* Estilos para o elemento com o ID #footer_content */
+#footer_content {
+    background-color: var(--color-netral-0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+/* Estilos para cabeçalhos dentro do elemento com o ID #footer_contacts */
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+/* Estilos para o elemento com o ID #footer_social_media */
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem; /* Correção: substituí ',' por '.' */
+}
+
+/* Estilos para links dentro do elemento com a classe .footer-link */
+#footer_social_media .footer-link {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-netral-40);
+    border-radius: 50%;
+}
+
+/* Mais estilos para links dentro do elemento com a classe .footer-link */
+#footer_social_media .footer-link {
+    font-size: 1.25rem;
+}
+
+/* Estilos para listas com a classe .footer-list */
+.footer-list {
+    display: flex;
+    gap: 0.75rem;
+}

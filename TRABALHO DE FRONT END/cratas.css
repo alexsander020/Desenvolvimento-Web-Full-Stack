@@ -1,0 +1,97 @@
+/* Define estilos iniciais para todos os elementos, zerando margens e preenchimentos, definindo uma fonte padrão e tamanho de fonte */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* Estilos para o container de cartas */
+.cartas {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+/* Estilos para o container do rodapé */
+.footer-container {
+    display: flex;
+    position: relative;
+}
+
+/* Estilos para cartas individuais */
+.card {
+    height: 300px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden;
+}
+
+/* Estilos para imagens dentro das cartas */
+.imgcarta {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+/* Estilos para a caixa de introdução dentro das cartas */
+.intro {
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -150px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: .5s;
+}
+
+/* Estilos para cabeçalho dentro da caixa de introdução */
+.intro h1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Estilos para parágrafos dentro da caixa de introdução */
+.intro p {
+    font-size: 12px;
+    text-align: left;
+    color: black;
+}
+
+/* Estilos para cabeçalhos h1 */
+h1 {
+    margin: 9px;
+    font-size: 20px;
+}
+
+/* Estilos para elementos <span> */
+span {
+    font-weight: bold;
+}
+
+/* Efeito de hover nas cartas */
+.card:hover {
+    cursor: pointer;
+}
+
+/* Efeito de hover para a caixa de introdução */
+.card:hover .intro {
+    height: 220px;
+    bottom: -20px;
+    background: rgb(192, 190, 190);
+}
+
+/* Efeito de hover para tornar os parágrafos visíveis */
+.card:hover p {
+    opacity: 1; /* Alteração de 3 para 1 para que os parágrafos sejam visíveis */
+    visibility: visible;
+}
+
+/* Efeito de hover para a imagem dentro das cartas */
+.card:hover .imgcarta {
+    transform: scale(1.2) rotate(-3deg);
+}

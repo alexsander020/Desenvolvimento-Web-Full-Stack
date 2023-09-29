@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    /* Define um conjunto de regras CSS que se aplicam apenas a telas com largura máxima de 768px */
+
+    .container {
+        /* Define as propriedades do grid para a classe "container" */
+
+        grid-template-columns: 1fr 1fr 1fr;
+        /* Define três colunas com largura igual a uma fração do espaço disponível (1fr cada) */
+
+        grid-template-rows: 0.0fr 0.3fr 0.2fr 1fr 0.2fr;
+        /* Define cinco linhas do grid com alturas variadas, cada uma representada como frações do espaço disponível */
+
+        grid-template-areas:
+            "h h h"
+            "a a a"
+            "m m m"
+            "c1 c2 c3"
+            "f f f";
+        /* Define as áreas do grid, atribuindo nomes ("h", "a", "m", "c1", "c2", "c3", "f") a cada célula do grid */
+    }
+}
